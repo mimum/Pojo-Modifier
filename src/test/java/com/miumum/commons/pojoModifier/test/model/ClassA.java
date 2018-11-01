@@ -11,8 +11,6 @@ public class ClassA {
 
     private ClassB filedOfB2;
 
-    private Long 
-
     public String getString() {
         return string;
     }
