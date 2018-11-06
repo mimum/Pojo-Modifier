@@ -39,6 +39,9 @@ act on specific property/member object
 ### Good-to-have features
 * [ ] Support immutable collections (e.g. instances of `UnmodificableList` which
 doesn't allow to change member objects)
+* [ ] Annotation based cleanup = provide Type based and property based annotation `Modified` which will
+have as parameter Modifier classes. This will mean, that certain class or property object will be modified
+with defined modifier. For this it'd be also necessary to mark modifiers which have parameter-less constructor.
 * [ ] Out-of-the-box modifiers:
   * [ ] Any bean - set to null empty bean (this would check all bean properties
   except ones marked with some annotation) and would set to null those, which are empty
